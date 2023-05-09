@@ -14,6 +14,9 @@
     - log section 
     - activity graph 
     - survey results
+ > login.html
+ - contains a username and passord field for login
+ - contains a box that users can tick to remember login
  > reminders.html
  > reminders.js
  - Contains js code for pop-up in reminder
