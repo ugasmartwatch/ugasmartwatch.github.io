@@ -31,7 +31,6 @@
  These are the variables needed for the alarm
   - id : "mytimer",  // optional ID for this alarm/timer, so apps can easily find their timers
   - appid : "myappid", // optional app ID for alarms that you set/use for your app
-  - on : true,       // is the alarm enabled?
   - t : 23400000,    // Time of day since midnight in ms (if a timer, this is set automatically when timer starts)
   - dow : 0b1111111, // Binary encoding for days of the week to run alarm on
     //  SUN = 1
