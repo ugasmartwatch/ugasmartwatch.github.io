@@ -58,7 +58,7 @@
         - ADMIN sent surveys are denoted by the "red exclamation" in the survey results section of user profile page
 
 
-   > ***Admin Page (config.html)***
+   > ***Admin Page (config.html/script.js)***
 
    - Contains two sections: configuration section along with an add members section
    - The user inputs information like their name, phone number, start date, step level, etc. in the config section and clicks submit
