@@ -56,3 +56,19 @@
     -  When admins login it they should be able to access an EDITABLE version of the user profile page (index.html)
    - Survey Results: 
         - ADMIN sent surveys are denoted by the "red exclamation" in the survey results section of user profile page
+
+   > ***Admin Page (config.html/script.js)***
+   -Contains two sections: configuration section along with an add members section
+   -The user inputs information like their name, phone number, start date, step level, etc. in the config section and clicks submit
+        -When the user clicks the submit button, a json object will be created with the information
+   -The user can add members in the add member section with details like their name, phone, step goal, etc. and click add member when done
+        -When the user clicks the add member button, the json object from the config section will be extended with the details of this
+         section (the information from the add member section will be added to json from the config section).
+        -At the same time the user clicks the add member button, the configured JSON will be sent as an object to the database with a PUT
+         request.
+        -If the user wants to retrieve a Config JSON from the database, the user just needs to enter the ID and click on the "View" button.
+         In the web browser's console, the retrieved JSON will be printed and this is done via a GET request. (When searching by ID, we 
+         assume that the there is some Config JSON that contains the same ID).
+   -As an extended feature, when a user creates a new member and clicks on the "Add Member" button, the list of new members are shown in a 
+    bulleted list to the right. If the user hovers over the name, they can also see the details of the members.
+    
